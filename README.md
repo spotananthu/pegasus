@@ -111,7 +111,3 @@ html,css,javascript,node.js,express.js,nodemon,firebase,java,android-studio,ardu
 
 
 OTHER LINKS:
-
-Website - https://modula-oeo4.onrender.com/
-
-Mobile Application - https://drive.google.com/drive/folders/16cksuj0_IU0EfXpHeCgt0RjjpN3F4t2m?usp=sharing
