@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar sections starts  -->
+    <header class="header">
+        <div class="logo">
+            <img src="/images/modula.png" alt="logo-bookmark">
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#footer">Contact</a>
+            <a href="/login.html" class="btn">Log in</a>
+        </nav>
+
+
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </header>
+    <!-- navbar sections starts  -->
+
+   
+    <!-- home section stars  -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <br><h1 style="font-size: 49px;">Battery<br>Management<br>System</h1>
+            <p>Experience the future of battery management with our advanced BMS, <b>safeguarding your battery's performance by monitoring, protecting, and isolating potential issues</b>, ensuring peak efficiency and safety.</p>
+
+            <a href="/register.html" class="home-btn">REGISTER NOW!</a>
+        </div>
+
+
+        <div class="image">
+            <img src="/images/car4.svg" alt="illustration-hero">
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- features sectin starts  -->
+
+    <section class="features" id="features">
+        <div class="heading">
+            <h1 style="font-size: 49px">Features</h1>
+            <p>Our aim is to continuously monitor lithium-ion batteries, collect real-time data on crucial battery conditions, analyze deviations from ideal conditions, and provide users with actionable insights.</p>
+        </div>
+
+
+        <div class="row">
+            <!-- 1 Tab  -->
+            <div class="image">
+                <img src="/images/b1.svg" alt="illustration-features-tab-1">
+            </div>
+
+
+            <div class="content">
+                <h1>Cell Monitoring</h1>
+                <p>Cell monitoring is monitoring each of the cells included in a battery pack and ensuring that they are operated within the safe operating range. It monitors and reacts to the <b>State of Health (SoH), State of Charge (SoC) and Depth of Discharge (DoD) with the assistance of balancing ASICs.</b></p>
+                <a href="#" class="all-btn">more info</a>
+            </div>
+
+            <!-- 1 Tab  -->
+
+            <!-- 2 Tab  -->
+
+            <div class="image">
+                <img src="/images/battery2.svg" alt="illustration-features-tab-2">
+            </div>
+
+            <div class="content">
+                <h1>Battery Protection</h1>
+                <p>Battery protection is vital for lithium-ion batteries used in electric vehicles, <b>guarding against overcharge, undercharge, short circuits, and overheating.</b> It ensures extended battery life, safety, and optimal performance.</p>
+                <a href="#" class="all-btn">more info</a>
+            </div>
+
+            
+
+            <!-- 2 Tab  -->
+
+            <div class="image">
+                <img src="/images/b2.svg" alt="illustration-features-tab-3">
+            </div>
+
+            <div class="content">
+                <h1>Cell Isolation</h1>
+                <p>Incorporate a cell isolation mechanism to prevent potential issues in one battery cell from affecting others, enhancing overall safety and longevity</p>
+                <a href="#" class="all-btn">more info</a>
+            </div>
+
+
+            <!-- 3 Tab  -->
+
+        </div>
+    </section>
+
+
+    <!-- features sectin ends -->
+
+
+
+    <!-- footer section starts  -->
+
+   <section class="footer" id="footer">
+       <div class="box-container">
+           <div class="box">
+               <h3>quick links</h3>
+               <a href="#"><i class="fas fa-chevron-right"></i>home</a>
+               <a href="#"><i class="fas fa-chevron-right"></i>features</a>
+               <a href="#"><i class="fas fa-chevron-right"></i>contact</a>
+            </div>
+            
+            
+            <div class="box">
+                <h3>our services</h3>
+                <a href="#"><i class="fas fa-chevron-right"></i>Battery Monitoring</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>Protection System</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>Isolation System</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>Battery Testing</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>Data Analysis</a>
+           </div>
+
+           <div class="box">
+               <h3>contact info</h3>
+               <a href="#"><i class="fas fa-phone"></i>+123-456-789</a>
+               <a href="#"><i class="fas fa-envelope"></i>modula@example.com</a>
+               <a href="#"><i class="fas fa-map-marker-alt"></i>Kochi, india - 12345</a>
+           </div>
+
+           <div class="box">
+               <h3>follow us</h3>
+               <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+               <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+               <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+               <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+           </div>
+       </div>
+
+
+       <div class="credit">Copyright ©
+           <a></a><span>zenith</span> | all rights reserved</a>
+       </div>
+   </section>
+
+
+   <!-- Add this JavaScript code at the end of your HTML body or in a separate JS file -->
+
+<script>
+    // Function to toggle the navigation menu
+    function toggleMenu() {
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('active');
+    }
+  
+    // Get the menu button and add a click event listener to it
+    const menuButton = document.getElementById('menu-btn');
+    menuButton.addEventListener('click', toggleMenu);
+  </script>
+  
+
+    <!-- footer section ends -->
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
