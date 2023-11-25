@@ -117,7 +117,7 @@
             
             // getting reference to the data we want
             var dataRef1 = database.ref('Sensor/temperature');
-            var dataRef2 = database.ref('Sensor/voltage');
+            var dataRef2 = database.ref('Sensor/voltage2');
             
             // fetch the data
             dataRef1.on('value', function (getdata1) {
@@ -129,7 +129,7 @@
                 var temp = getdata2.val();
                 document.getElementById('temperature').innerHTML = temp + "&#8451;";
             
-                if (temp > 0 || volt > 0.1 || volt < 1.50) {
+                if (temp > 30 || volt > 12 || volt < 7) {
                     // Activating RELAY
                     console.log("Activating RELAY");
                     alert("Warning: Temperature or voltage conditions exceeded!");
